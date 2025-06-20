@@ -2,19 +2,19 @@
 
 This repository provides the pre-built vocabulary trees for COLMAP, originally available from [demuc.de/colmap/](https://demuc.de/colmap/), converted from their original FLANN format to FAISS.
 
----
+
 
 ## What I Did
 
 COLMAP traditionally uses FLANN (Fast Library for Approximate Nearest Neighbors) for its vocabulary tree-based image retrieval. However, newer versions of COLMAP expect **FAISS** (Facebook AI Similarity Search) indices. I have taken the publicly available vocabulary tree files from the COLMAP project and converted them to the **FAISS format**, allowing for direct use with COLMAP installations configured to utilize FAISS for vocabulary tree matching.
 
----
+
 
 ## Usage
 
 Simply replace your existing COLMAP vocabulary tree files with the **FAISS-converted files** provided in this repository. Ensure your COLMAP installation is configured to use FAISS for vocabulary tree matching.
 
----
+
 
 ## Citations
 
